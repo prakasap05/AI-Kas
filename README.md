@@ -5,7 +5,7 @@ AI-Kas ini telah support di semua CLI, baik di Windows maupun Linux dan Termux
 ## INSTALL
 ```
 bash
-$ sudo git clone https://github.com/prakasap05/AI-Kas
+$ sudo git clone https://github.com/prakasap05/AI-Kas | bisa hapus jika anda tidak memakai sudo menjadi
 $ git clone https://github.com/prakasap05/AI-Kas
 
 $ cd AI-Kas
