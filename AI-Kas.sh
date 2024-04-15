@@ -27,9 +27,6 @@ input=$(echo "$json_clean" | jq -r '.input')
 prompt=$(echo "$json_clean" | jq -r '.prompt')
 
 #menampilkan response dari prompt yang anda ketik disini
-echo "\nInput kamu: $input\nHasil response: $response"
-
-#menampilkan response dari prompt yang anda ketik disini
 echo "\nInput kamu: $input\nHasil response: $response\n"
 echo "╭─prakasap05@AI-Kas:Type next to continue"
 read -p "╰─$ " lanjut #menginput untuk melanjutkan AI-Kas
