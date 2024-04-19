@@ -1,4 +1,4 @@
-#!usr/bin/perl
+#!usr/bin/sh
 #author: prakasa putra
 #saya membuat tools ini karena saya ingin mencobanya, karena web ini menampilkan data JSON yang seharusnya tersimpan rapih pada API nya.
 #yang menemukan bug pada data JSON web AI CNEKO adalah Mas Willy.
