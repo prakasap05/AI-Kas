@@ -1,4 +1,4 @@
-#!usr/bin/sh
+#!usr/bin/bash
 #author: prakasa putra
 #saya membuat tools ini karena saya ingin mencobanya, karena web ini menampilkan data JSON yang seharusnya tersimpan rapih pada API nya.
 #yang menemukan bug pada data JSON web AI CNEKO adalah Mas Willy.
@@ -15,7 +15,7 @@ read -p "╰─$ " promptkas #menginput kata-kata perintah atau prompt kamu
 akas_query=$(echo "$promptkas" | sed 's/ /+/g')
 
 #mengambil data dari URL menggunakan curl
-json=$(curl -s "https://chat.ai.cneko.org/?t=$akas_query&p=null")
+json=$(curl -s "https://chat.ai.cneko.org/?t=$akas_query&p=Gunakan+bahasa+gaul+indonesia+,+Sertakan+sumber+link+dari+jawaban+jika+ada")
 
 #membersihkan karakter non-printable dari JSON menggunakan sed
 json_clean=$(echo "$json" | sed -E 's/[^[:print:]]//g')
